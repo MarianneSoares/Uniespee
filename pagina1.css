@@ -1,0 +1,193 @@
+ body, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #F14D4D;   
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    height: 60px;
+
+}
+
+.logo-container img {
+    height: 60px; 
+    margin-right:  10px; 
+    margin-left: 30px;
+}
+
+.nome{
+    color:#ffffff;
+    font-family: 'Lalezar', cursive;
+    display:flex;
+    margin-right: 50px;
+}
+
+
+
+.search-container {
+    display: flex;
+    width: 880px;
+}
+
+.search-input {
+    width: 800px; 
+    height: 20px;
+    padding: 7px;
+    padding-left: 15px;
+    margin-right: 5px;
+    border: 1px solid #E4E3E3;
+}
+
+.search-button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-right: 55px;
+}
+.ajuda-logo{
+    width: 27px;
+    margin-left:750px;
+    margin-right: 10px;
+}
+.linguagem-logo{
+    width: 27px;
+}
+
+.ajuda-button{
+    margin-left: 0px;
+    border: none;
+    color:#ffffff;
+    background-color: #F14D4D; 
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+
+       
+}
+.lang-button{
+    margin-left: 0px;
+    border: none;
+    color:#ffffff;
+    background-color: #F14D4D; 
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 15px;
+    
+}
+.ajuda-lang{
+    display: flex;
+}
+
+
+.register-button{
+    margin-left: 80px;
+    border: none;
+    color:#ffffff;
+    background-color: #F14D4D; 
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 15px;
+}
+.login-button {
+    margin-left: 10px;
+    border: none;
+    color:#ffffff;
+    background-color: #F14D4D; 
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.carrinho{
+    right: 10px;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    padding: 13px;
+    margin: 0;
+    color: #ffffff;
+}
+
+.navigation li {
+    margin-right: 20px;
+    margin-left: 60px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.navigation .active {
+    font-weight: bold;
+}
+
+.sub-navigation {
+    padding: 10px;
+    background-color: #f8f8f8;
+    padding-left: 60px;
+}
+
+.filter-bar {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding-left: 100px;
+}
+
+.filter-bar span {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.filter-bar button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
+
+.products-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.product-item {
+    width: 200px;
+    margin: 15px;
+    border: 0px solid #ccc;
+    text-align: center;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+}
+
+.product-description h2 {
+    color: #333;
+    padding: 5px 0;
+}
+
+.product-description p {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.price {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 10px 0;
+}
+
